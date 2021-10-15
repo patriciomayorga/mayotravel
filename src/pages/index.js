@@ -7,7 +7,7 @@ export default function HomePage() {
     <div>
       <Header />
       <Link href='/about'>
-        <a>About Us</a>
+        <a>About Us asdsa dfdssdf</a>
       </Link>
     </div>
   );
