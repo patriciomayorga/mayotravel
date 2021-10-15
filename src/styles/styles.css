@@ -24,6 +24,7 @@ nav .container {
 .icon-letras {
   line-height: 60px;
   display: flex;
+  align-items: center;
 }
 .icon-logo {
   font-size: 40px;
@@ -36,7 +37,7 @@ label.letras-logo {
   font-size: 40px;
   color: white;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 1;
 }
 
 nav .container ul {
