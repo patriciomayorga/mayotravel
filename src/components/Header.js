@@ -8,7 +8,7 @@ import {
   FlagOutlined,
   CompassOutlined,
 } from '@ant-design/icons';
-import Container from './conatiner';
+import Container from './Container';
 
 const Header = () => {
   return (
