@@ -1,13 +1,14 @@
-import Link from 'next/link'
-import { Button } from 'antd'
+import React from 'react';
+import Link from 'next/link';
+import Header from '../components/Header';
 
-export default function HomePage () {
-    return (
-        <div>Hola
-        <Button type="primary">Button</Button>
-        <Link href="/about">
-          <a>About Us</a>
-        </Link>
-        </div>
-    )
+export default function HomePage() {
+  return (
+    <div>
+      <Header />
+      <Link href='/about'>
+        <a>About Us</a>
+      </Link>
+    </div>
+  );
 }

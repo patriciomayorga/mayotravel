@@ -1,12 +1,14 @@
-
+import React from 'react';
 import './App.css';
+import '../styles/styles.css';
 
 function MyApp({ Component, pageProps }) {
-    return <>
-        Header
-        <Component {...pageProps} />
-        Footer
+  return (
+    <>
+      <Component {...pageProps} />
+      Footer
     </>
-  }
+  );
+}
 
-  export default MyApp
+export default MyApp;
