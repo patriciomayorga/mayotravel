@@ -7,9 +7,9 @@ export default function Video() {
       <video
         className='video2'
         src='https://res.cloudinary.com/dlypj8ldu/video/upload/v1634513077/mayotravel/galapagos-ecuador_heu0z9.mp4'
-        muted
+        autoPlay
         loop
-        autoplay
+        muted
       ></video>
     </div>
   );
