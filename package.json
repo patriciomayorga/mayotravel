@@ -8,6 +8,7 @@
   "dependencies": {
     "@next/eslint-plugin-next": "^11.1.2",
     "antd": "^4.16.13",
+    "cloudinary": "^1.27.1",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

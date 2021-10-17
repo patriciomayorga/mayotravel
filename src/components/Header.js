@@ -6,7 +6,7 @@ import {
   UserAddOutlined,
   PhoneOutlined,
   FlagOutlined,
-  CompassOutlined,
+  AlertOutlined,
 } from '@ant-design/icons';
 import Container from './Container';
 
@@ -16,7 +16,7 @@ const Header = () => {
       <Container>
         <div className='icon-letras'>
           <div className='icon-logo'>
-            <CompassOutlined />
+            <AlertOutlined />
           </div>
           <label className='letras-logo'>mayotravel</label>
         </div>

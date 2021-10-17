@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta charset='UTF-8' />
         <title>
           Mayotravel Agencia de Viajes | Baños Ecuador | Galapagos | Rafting | Canyoning | Paquetes
           | Tours | Hoteles | Vuelos Charter | Vacaciones
