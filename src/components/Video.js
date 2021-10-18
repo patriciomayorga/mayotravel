@@ -1,4 +1,5 @@
 import React from 'react';
+import { ArrowDownOutlined } from '@ant-design/icons';
 
 export default function Video() {
   return (
@@ -12,8 +13,11 @@ export default function Video() {
         muted
       ></video>
       <div className='video-content'>
-        <h1>Tours de Aventura</h1>
-        <p>En Ecuador y galapagos</p>
+        <h1>"Tours de Aventura"</h1>
+        <p>En Ecuador y Las Islas Galápagos</p>
+        <div className='flecha-down'>
+          <ArrowDownOutlined />
+        </div>
       </div>
     </div>
   );
