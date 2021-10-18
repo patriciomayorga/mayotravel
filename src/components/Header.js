@@ -54,7 +54,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href=''>
+            <a href='/about'>
               <div className='icon'>
                 <UserAddOutlined />
               </div>{' '}

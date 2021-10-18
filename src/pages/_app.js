@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import './app.css';
 import '../styles/styles.css';
+import { Footer } from 'antd/lib/layout/layout';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -62,7 +63,6 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
-      Footer
     </>
   );
 }
