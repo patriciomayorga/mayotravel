@@ -11,6 +11,10 @@ export default function Video() {
         loop
         muted
       ></video>
+      <div className='video-content'>
+        <h1>Tours de Aventura</h1>
+        <p>En Ecuador y galapagos</p>
+      </div>
     </div>
   );
 }
