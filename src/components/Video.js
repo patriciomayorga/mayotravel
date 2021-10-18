@@ -14,7 +14,7 @@ export default function Video() {
       ></video>
       <div className='video-content'>
         <h1>"Tours de Aventura"</h1>
-        <p>!En Ecuador y Las Islas Galápagos¡</p>
+        <p>En Ecuador y Las Islas Galápagos</p>
         <div className='flecha-down'>
           <ArrowDownOutlined />
         </div>
