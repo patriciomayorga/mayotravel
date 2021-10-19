@@ -129,7 +129,7 @@ nav .container ul li a {
 
 .container-cards {
   margin-top: 50px;
-  margin-bottom: 0px;
+  padding-bottom: 50px;
 }
 
 .card {
