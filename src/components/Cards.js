@@ -20,7 +20,7 @@ export const Cards = () => {
             <div className='card'>
               <img
                 className='photo'
-                src='https://media.staticontent.com/media/pictures/5192c06f-10ab-44e8-bfe2-9c03913fbebb/295x200'
+                src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-rafting-banos-ecuador_dqggg9.jpg'
               />
               <div className='card-content'>
                 <h4 className='card-content-subtitle'>Actividades</h4>
@@ -35,7 +35,7 @@ export const Cards = () => {
                 Precio por adulto desde:
                 <div className='card-footer-inside'>
                   <h4 className='card-footer-usd'>Usd</h4>
-                  <h3 className='card-footer-number'>40</h3>
+                  <h3 className='card-footer-number'>30</h3>
                 </div>
               </div>
             </div>
@@ -44,24 +44,72 @@ export const Cards = () => {
             <div className='card'>
               <img
                 className='photo'
-                src='https://media.staticontent.com/media/pictures/5192c06f-10ab-44e8-bfe2-9c03913fbebb/295x200'
+                src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-las-manos-de-dios-banos-ecuador_pgbows.jpg'
               />
+              <div className='card-content'>
+                <h4 className='card-content-subtitle'>Actividades</h4>
+                <h3 className='card-content-title'>Las Manos de Dios</h3>
+                <Popover className='card-content-popover' placement='topLeft' content={content}>
+                  <Tag color='#f50'>
+                    <InfoCircleOutlined /> Reserva Flexible
+                  </Tag>
+                </Popover>
+              </div>
+              <div className='card-footer'>
+                Precio por adulto desde:
+                <div className='card-footer-inside'>
+                  <h4 className='card-footer-usd'>Usd</h4>
+                  <h3 className='card-footer-number'>8</h3>
+                </div>
+              </div>
             </div>
           </Col>
           <Col span={6}>
             <div className='card'>
               <img
                 className='photo'
-                src='https://media.staticontent.com/media/pictures/5192c06f-10ab-44e8-bfe2-9c03913fbebb/295x200'
+                src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-canyoning-banos-ecuador_bnmtfl.jpg'
               />
+              <div className='card-content'>
+                <h4 className='card-content-subtitle'>Actividades</h4>
+                <h3 className='card-content-title'>Canyoning</h3>
+                <Popover className='card-content-popover' placement='topLeft' content={content}>
+                  <Tag color='#f50'>
+                    <InfoCircleOutlined /> Reserva Flexible
+                  </Tag>
+                </Popover>
+              </div>
+              <div className='card-footer'>
+                Precio por adulto desde:
+                <div className='card-footer-inside'>
+                  <h4 className='card-footer-usd'>Usd</h4>
+                  <h3 className='card-footer-number'>30</h3>
+                </div>
+              </div>
             </div>
           </Col>
           <Col span={6}>
             <div className='card'>
               <img
                 className='photo'
-                src='https://media.staticontent.com/media/pictures/5192c06f-10ab-44e8-bfe2-9c03913fbebb/295x200'
+                src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-casa-del-arbol-banos-ecuador_bdb7kv.jpg'
               />
+              <div className='card-content'>
+                <h4 className='card-content-subtitle'>Actividades</h4>
+                <h3 className='card-content-title'>La Casa del Arbol</h3>
+                <Popover className='card-content-popover' placement='topLeft' content={content}>
+                  <Tag color='#f50'>
+                    <InfoCircleOutlined /> Reserva Flexible
+                  </Tag>
+                </Popover>
+              </div>
+              <div className='card-footer'>
+                Precio por adulto desde:
+                <div className='card-footer-inside'>
+                  <h4 className='card-footer-usd'>Usd</h4>
+                  <h3 className='card-footer-number'>8</h3>
+                </div>
+              </div>
             </div>
           </Col>
         </Row>
