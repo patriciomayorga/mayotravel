@@ -192,3 +192,162 @@ nav .container ul li a {
   padding-top: 10px;
   font-weight: 500;
 }
+.reserva-flexible {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: #270570;
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* CSS DE banners */
+
+.baners-box {
+  margin-bottom: 50px;
+}
+.tittle-oferts {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.photo-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.photo-oferts1 {
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.banner-content {
+  position: absolute;
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  padding: 30px 8px 8px 8px;
+  width: 100%;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+.promotion-discount {
+  position: absolute;
+  color: #ffffff;
+  background: #df4249;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.banner-content-subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+}
+.banner-content-title {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: white;
+}
+.photo-content2 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.banner-content2 {
+  position: absolute;
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  padding: 30px 8px 8px 8px;
+  width: 100%;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+.promotion-discount2 {
+  position: absolute;
+  color: #ffffff;
+  background: #2ebd21;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+.banner-content-subtitle2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+}
+.banner-content-title2 {
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.promotion-discount3 {
+  position: absolute;
+  color: #ffffff;
+  background: #0003b4;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+ant-col ant-col-6 {
+  padding-left: 0px;
+}
