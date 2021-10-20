@@ -20,6 +20,7 @@ export const Baners = () => {
             <div className='photo-content'>
               <img
                 className='photo-oferts1 '
+                alt='Islas Galápagos Ecuador'
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634686393/mayotravel/card-galapagos-ecuador_mmyf4s.jpg'
               />
               <div className='promotion-discount'>Hasta 15 % off</div>
@@ -35,6 +36,7 @@ export const Baners = () => {
             <div className='photo-content2'>
               <img
                 className='photo-oferts1 '
+                alt='Decameron Mompiche Ecuador'
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634686657/mayotravel/card-decameron-ecuador_qcf29e.jpg'
               />
               <div className='promotion-discount2'>10 % off</div>
@@ -50,6 +52,7 @@ export const Baners = () => {
             <div className='photo-content2'>
               <img
                 className='photo-oferts1 '
+                alt='Climbing Volcan Cotopaxi Ecuador'
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634685674/mayotravel/card-climbing-ecuador_meqff7.jpg'
               />
               <div className='promotion-discount3'>5 % off</div>

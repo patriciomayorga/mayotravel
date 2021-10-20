@@ -20,6 +20,7 @@ export const Cards = () => {
             <div className='card'>
               <img
                 className='photo'
+                alt='Rafting Baños Ecuador'
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-rafting-banos-ecuador_dqggg9.jpg'
               />
               <div className='card-content'>
@@ -46,6 +47,7 @@ export const Cards = () => {
             <div className='card'>
               <img
                 className='photo'
+                alt='Las manos de Dios Baños Ecuador'
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-las-manos-de-dios-banos-ecuador_pgbows.jpg'
               />
               <div className='card-content'>
@@ -72,6 +74,7 @@ export const Cards = () => {
             <div className='card'>
               <img
                 className='photo'
+                alt='Canyoning Baños Ecuador'
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-canyoning-banos-ecuador_bnmtfl.jpg'
               />
               <div className='card-content'>
@@ -98,6 +101,7 @@ export const Cards = () => {
             <div className='card'>
               <img
                 className='photo'
+                alt='La casa del arbol Baños Ecuador'
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-casa-del-arbol-banos-ecuador_bdb7kv.jpg'
               />
               <div className='card-content'>
