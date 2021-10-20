@@ -1,11 +1,5 @@
+import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-{
-  "extends": "next",
-  "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
-  }
-}
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
