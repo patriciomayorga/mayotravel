@@ -24,10 +24,10 @@ export const Cards = () => {
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-rafting-banos-ecuador_dqggg9.jpg'
               />
               <div className='card-content'>
-                <h4 className='card-content-subtitle'>
+                <h3 className='card-content-subtitle'>
                   <PushpinOutlined /> Actividades
-                </h4>
-                <h3 className='card-content-title'>Rafting</h3>
+                </h3>
+                <h4 className='card-content-title'>Rafting</h4>
                 <Popover className='card-content-popover' placement='topLeft' content={content}>
                   <span className='reserva-flexible'>
                     <InfoCircleOutlined /> Reserva Flexible
@@ -37,8 +37,8 @@ export const Cards = () => {
               <div className='card-footer'>
                 Precio por adulto desde:
                 <div className='card-footer-inside'>
-                  <h4 className='card-footer-usd'>Usd</h4>
-                  <h3 className='card-footer-number'>30</h3>
+                  <h3 className='card-footer-usd'>Usd</h3>
+                  <h4 className='card-footer-number'>30</h4>
                 </div>
               </div>
             </div>
@@ -51,10 +51,10 @@ export const Cards = () => {
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-las-manos-de-dios-banos-ecuador_pgbows.jpg'
               />
               <div className='card-content'>
-                <h4 className='card-content-subtitle'>
+                <h3 className='card-content-subtitle'>
                   <PushpinOutlined /> Actividades
-                </h4>
-                <h3 className='card-content-title'>Las Manos de Dios</h3>
+                </h3>
+                <h4 className='card-content-title'>Las Manos de Dios</h4>
                 <Popover className='card-content-popover' placement='topLeft' content={content}>
                   <span className='reserva-flexible'>
                     <InfoCircleOutlined /> Reserva Flexible
@@ -64,8 +64,8 @@ export const Cards = () => {
               <div className='card-footer'>
                 Precio por adulto desde:
                 <div className='card-footer-inside'>
-                  <h4 className='card-footer-usd'>Usd</h4>
-                  <h3 className='card-footer-number'>10</h3>
+                  <h3 className='card-footer-usd'>Usd</h3>
+                  <h4 className='card-footer-number'>10</h4>
                 </div>
               </div>
             </div>
@@ -78,10 +78,10 @@ export const Cards = () => {
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-canyoning-banos-ecuador_bnmtfl.jpg'
               />
               <div className='card-content'>
-                <h4 className='card-content-subtitle'>
+                <h3 className='card-content-subtitle'>
                   <PushpinOutlined /> Actividades
-                </h4>
-                <h3 className='card-content-title'>Canyoning</h3>
+                </h3>
+                <h4 className='card-content-title'>Canyoning</h4>
                 <Popover className='card-content-popover' placement='topLeft' content={content}>
                   <span className='reserva-flexible'>
                     <InfoCircleOutlined /> Reserva Flexible
@@ -91,8 +91,8 @@ export const Cards = () => {
               <div className='card-footer'>
                 Precio por adulto desde:
                 <div className='card-footer-inside'>
-                  <h4 className='card-footer-usd'>Usd</h4>
-                  <h3 className='card-footer-number'>30</h3>
+                  <h3 className='card-footer-usd'>Usd</h3>
+                  <h4 className='card-footer-number'>30</h4>
                 </div>
               </div>
             </div>
@@ -105,10 +105,10 @@ export const Cards = () => {
                 src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-casa-del-arbol-banos-ecuador_bdb7kv.jpg'
               />
               <div className='card-content'>
-                <h4 className='card-content-subtitle'>
+                <h3 className='card-content-subtitle'>
                   <PushpinOutlined /> Actividades
-                </h4>
-                <h3 className='card-content-title'>La Casa del Arbol</h3>
+                </h3>
+                <h4 className='card-content-title'>La Casa del Arbol</h4>
                 <Popover className='card-content-popover' placement='topLeft' content={content}>
                   <span className='reserva-flexible'>
                     <InfoCircleOutlined /> Reserva Flexible
@@ -118,8 +118,8 @@ export const Cards = () => {
               <div className='card-footer'>
                 Precio por adulto desde:
                 <div className='card-footer-inside'>
-                  <h4 className='card-footer-usd'>Usd</h4>
-                  <h3 className='card-footer-number'>8</h3>
+                  <h3 className='card-footer-usd'>Usd</h3>
+                  <h4 className='card-footer-number'>8</h4>
                 </div>
               </div>
             </div>
