@@ -66,7 +66,6 @@ export const Baners = () => {
           </Col>
         </Row>
       </div>
-      ;
     </Container>
   );
 };
