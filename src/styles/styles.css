@@ -421,3 +421,72 @@ nav .container ul li a {
   width: 50%;
   margin-top: 10px;
 }
+
+.mail-content {
+  min-width: 320px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 50px;
+}
+
+.offerts-mail {
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0 10px 0;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  height: 91px;
+  max-width: 683px;
+  box-sizing: content-box;
+}
+.logo-mail {
+  font-size: 76px;
+  color: rgb(17, 0, 80);
+  height: 116%;
+}
+.input-mail {
+  padding: 12px;
+}
+.input-tittle {
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 700;
+  color: #444444;
+  height: 45%;
+}
+.input-info {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.btn-send {
+  height: 64%;
+  padding-left: 10px;
+}
+
+.ant-btn-primary {
+  color: rgb(17, 0, 80);
+  border-color: rgb(17, 0, 80);
+  background: #ffffff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  -webkit-box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+.ant-btn {
+  border-radius: 5px;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: rgb(17, 0, 80);
+  background: rgb(17, 0, 80);
+}
+.ant-input:hover {
+  border-color: rgb(17, 0, 80);
+  border-right-width: 1px !important;
+}
+.ant-input:focus,
+.ant-input-focused {
+  border-color: rgb(17, 0, 80);
+}
