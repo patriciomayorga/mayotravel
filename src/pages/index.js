@@ -19,6 +19,7 @@ export default function HomePage() {
   return (
     <div>
       <Header />
+      Texto
       <Video />
       <Cards />
       <Baners />
