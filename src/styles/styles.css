@@ -155,6 +155,9 @@ nav .container ul li a {
   border: 0px;
   border-radius: 5px;
 }
+.ant-col-xs-24 {
+  margin-bottom: 20px;
+}
 .photo {
   width: 100%;
 }
@@ -386,6 +389,7 @@ nav .container ul li a {
   line-height: 40px;
   margin: 0;
   padding-bottom: 10px;
+  text-align: center;
 }
 .footer-colums p {
   color: #fff;
@@ -422,19 +426,6 @@ nav .container ul li a {
   background-color: #190542;
   color: white;
   height: 40px;
-}
-.footer-left {
-  display: inline;
-  float: left;
-  width: 50%;
-  margin-top: 10px;
-}
-.footer-rigth {
-  display: inline;
-  float: left;
-  text-align: right;
-  width: 50%;
-  margin-top: 10px;
 }
 
 .mail-content {
