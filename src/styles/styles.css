@@ -23,16 +23,24 @@ nav .container {
   justify-content: space-between;
   align-items: center;
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-outlined {
+  font-size: 40px;
+  color: white;
+  float: right;
+}
 .icon-letras {
   line-height: 60px;
   display: flex;
-  align-items: center;
 }
 .icon-logo {
   font-size: 40px;
   color: white;
   font-weight: bold;
-  line-height: 60px;
   padding-right: 10px;
 }
 label.letras-logo {
@@ -46,6 +54,7 @@ nav .container ul {
   float: right;
   display: flex;
   margin-bottom: 0;
+  display: none;
 }
 
 nav .container ul li {
@@ -104,14 +113,14 @@ nav .container ul li a {
 }
 .video-content > h1 {
   color: white;
-  font-size: 80px;
+  font-size: 35px;
   line-height: 1;
   margin-bottom: 5px;
   font-weight: bold;
 }
 .video-content > p {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   padding-bottom: 0px;
   margin-top: -12px;
 }
@@ -443,7 +452,6 @@ nav .container ul li a {
   padding: 20px 0 10px 0;
   justify-content: flex-end;
   flex-flow: column wrap;
-  height: 91px;
   max-width: 683px;
   box-sizing: content-box;
   text-align: -webkit-center;
@@ -493,10 +501,8 @@ nav .container ul li a {
   border-color: rgb(17, 0, 80);
   border-right-width: 1px !important;
 }
-.ant-input:focus,
-.ant-input-focused {
+.ant-input:focus .ant-input-focused {
   border-color: rgb(17, 0, 80);
-<<<<<<< HEAD
 }
 
 /* RESPONSIVE DESIGN PARA PC*/
@@ -994,6 +1000,3 @@ nav .container ul li a {
     border-color: rgb(17, 0, 80);
   }
 }
-=======
-}
->>>>>>> 6b47d7fdc2e2625fc6001b885885b1c57f91a557
