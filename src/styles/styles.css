@@ -75,7 +75,7 @@ nav .container ul li a {
 /* CSS DE VIDEO */
 .video-container {
   width: 100%;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 60px) !important;
   object-fit: contain;
   position: relative;
   overflow: hidden;
@@ -452,6 +452,7 @@ nav .container ul li a {
   display: block;
   padding: 20px 0 10px 0;
   box-sizing: content-box;
+  text-align: -webkit-center;
 }
 .logo-mail {
   font-size: 56px;
@@ -473,11 +474,6 @@ nav .container ul li a {
   font-size: 12px;
   margin-top: 10px;
 }
-.btn-send {
-  height: 64%;
-  padding-left: 5px;
-  width: 100px;
-}
 
 .ant-btn-primary {
   color: rgb(17, 0, 80);
@@ -490,6 +486,7 @@ nav .container ul li a {
 }
 .ant-btn {
   border-radius: 5px;
+  width: 60%;
 }
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
@@ -972,7 +969,6 @@ nav .container ul li a {
   }
   .btn-send {
     height: 64%;
-    padding-left: 10px;
   }
 
   .ant-btn-primary {
@@ -985,6 +981,7 @@ nav .container ul li a {
   }
   .ant-btn {
     border-radius: 5px;
+    width: 100%;
   }
   .ant-btn-primary:hover,
   .ant-btn-primary:focus {
