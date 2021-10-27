@@ -11,22 +11,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #eeeeee;
 }
+
+/* CSS DE HEADER */
 nav {
   background-color: #270570;
   width: 100%;
-  display: block;
+  height: 60px;
 }
 nav .container {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .icon-letras {
   line-height: 60px;
   display: flex;
-  justify-content: space-between;
-}
-.logo {
-  display: flex;
+  align-items: center;
 }
 .icon-logo {
   font-size: 40px;
@@ -39,17 +39,15 @@ label.letras-logo {
   font-size: 40px;
   color: white;
   font-weight: bold;
-}
-.menu-outlined {
-  font-size: 40px;
-  color: white;
-  cursor: pointer;
+  line-height: 1;
 }
 
 nav .container ul {
-  display: block;
+  float: right;
+  display: flex;
   margin-bottom: 0;
 }
+
 nav .container ul li {
   display: inline-block;
   line-height: 60px;
@@ -58,7 +56,6 @@ nav .container ul li a {
   color: white;
   display: flex;
   padding: 0 20px;
-  display: none;
 }
 
 .icon {
@@ -69,7 +66,7 @@ nav .container ul li a {
 /* CSS DE CONTAINER */
 .container {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 /* CSS DE VIDEO */
@@ -79,7 +76,6 @@ nav .container ul li a {
   object-fit: contain;
   position: relative;
   overflow: hidden;
-  display: block;
 }
 .video-container::after {
   content: ' ';
@@ -90,15 +86,13 @@ nav .container ul li a {
   width: 100%;
   height: 100%;
   z-index: 1;
-  display: block;
 }
 .video {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 101%;
   position: absolute;
   z-index: -1;
-  display: block;
 }
 .video-content {
   z-index: 2;
@@ -107,24 +101,23 @@ nav .container ul li a {
   transform: translateY(-50%);
   text-align: center;
   width: 100%;
-  display: block;
 }
 .video-content > h1 {
   color: white;
-  font-size: 35px;
-  line-height: 1.5;
+  font-size: 80px;
+  line-height: 1;
   margin-bottom: 5px;
   font-weight: bold;
 }
 .video-content > p {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   padding-bottom: 0px;
   margin-top: -12px;
 }
 .flecha-down {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* CSS DE CARDS */
@@ -137,8 +130,6 @@ nav .container ul li a {
 .container-cards {
   margin-top: 50px;
   padding-bottom: 50px;
-  width: 100%;
-  display: block;
 }
 
 .card {
@@ -217,6 +208,7 @@ nav .container ul li a {
   font-size: 11px;
   font-weight: bold;
 }
+
 /* CSS DE banners */
 
 .baners-box {
@@ -385,23 +377,11 @@ nav .container ul li a {
   line-height: 40px;
   margin: 0;
   padding-bottom: 10px;
-  text-align: center;
 }
 .footer-colums p {
   color: #fff;
   text-align: justify;
-  margin: 0 0 20px;
-}
-.footer-nav-in {
-  margin-bottom: 20px;
-}
-.footer-colums .ant-row {
-  display: block;
-}
-@media (min-width: 750px) {
-  .footer-colums .ant-row {
-    display: flex;
-  }
+  margin: 0 0 10px;
 }
 
 .footer-nav-in a {
@@ -429,43 +409,56 @@ nav .container ul li a {
   padding: 7px 10px;
   width: 100%;
 }
-
 .sub-footer-content {
   background-color: #190542;
   color: white;
-  display: block;
-  font-size: 11px;
+  height: 40px;
+}
+.footer-left {
+  display: inline;
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+}
+.footer-rigth {
+  display: inline;
+  float: left;
+  text-align: right;
+  width: 50%;
+  margin-top: 10px;
 }
 
 .mail-content {
-  min-width: 20px;
+  min-width: 320px;
   width: 100%;
   background-color: #fff;
   font-size: 14px;
   color: #888;
   margin-bottom: 50px;
-  display: block;
 }
 
 .offerts-mail {
   margin: 0 auto;
-  display: block;
+  display: flex;
   padding: 20px 0 10px 0;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  height: 91px;
+  max-width: 683px;
   box-sizing: content-box;
   text-align: -webkit-center;
 }
 .logo-mail {
-  font-size: 56px;
+  font-size: 76px;
   color: rgb(17, 0, 80);
   height: 116%;
 }
 .input-mail {
   padding: 12px;
-  width: 65%;
 }
 .input-tittle {
   line-height: 1.2;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   color: #444444;
   height: 45%;
@@ -474,7 +467,10 @@ nav .container ul li a {
   font-size: 12px;
   margin-top: 10px;
 }
-
+.btn-send {
+  height: 64%;
+  padding-left: 10px;
+}
 .ant-btn-primary {
   color: rgb(17, 0, 80);
   border-color: rgb(17, 0, 80);
@@ -482,7 +478,6 @@ nav .container ul li a {
   text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
   -webkit-box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
   box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
-  width: 100px;
 }
 .ant-btn {
   border-radius: 5px;
@@ -501,6 +496,7 @@ nav .container ul li a {
 .ant-input:focus,
 .ant-input-focused {
   border-color: rgb(17, 0, 80);
+<<<<<<< HEAD
 }
 
 /* RESPONSIVE DESIGN PARA PC*/
@@ -998,3 +994,6 @@ nav .container ul li a {
     border-color: rgb(17, 0, 80);
   }
 }
+=======
+}
+>>>>>>> 6b47d7fdc2e2625fc6001b885885b1c57f91a557
