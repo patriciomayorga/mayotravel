@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from './Container';
-import { EnvironmentOutlined, InfoCircleOutlined, PushpinOutlined } from '@ant-design/icons';
+import { TagOutlined, InfoCircleOutlined, SendOutlined } from '@ant-design/icons';
 import { Row, Col, Popover, Card } from 'antd';
 
-export const Cards = () => {
+export const Cards2 = () => {
   const content = (
     <div className='card-content-popover-content'>
       Puedes cancelar la actividad, si tus planes cambian.
@@ -12,7 +12,7 @@ export const Cards = () => {
   return (
     <Container>
       <div className='place-tittle'>
-        <EnvironmentOutlined /> Disfruta, Baños de Agua Santa
+        <TagOutlined /> Conoce, Ecuador y su Cultura
       </div>
       <div className='container-cards'>
         <Row gutter={15}>
@@ -21,14 +21,14 @@ export const Cards = () => {
               <div className='card'>
                 <img
                   className='photo'
-                  alt='Rafting Baños Ecuador'
-                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-rafting-banos-ecuador_dqggg9.jpg'
+                  alt='Amazonia Ecuador'
+                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634859956/mayotravel/card-amazonia-ecuador_mq5yyr.jpg'
                 />
                 <div className='card-content'>
                   <div className='card-content-subtitle'>
-                    <PushpinOutlined /> Actividades
+                    <SendOutlined /> Excursión
                   </div>
-                  <div className='card-content-title'>Rafting</div>
+                  <div className='card-content-title'>Tours en la Amazonia</div>
                   <Popover className='card-content-popover' placement='topLeft' content={content}>
                     <span className='reserva-flexible'>
                       <InfoCircleOutlined /> Reserva Flexible
@@ -39,7 +39,7 @@ export const Cards = () => {
                   Precio por adulto desde:
                   <div className='card-footer-inside'>
                     <div className='card-footer-usd'>Usd</div>
-                    <div className='card-footer-number'>30</div>
+                    <div className='card-footer-number'>60</div>
                   </div>
                 </div>
               </div>
@@ -50,14 +50,14 @@ export const Cards = () => {
               <div className='card'>
                 <img
                   className='photo'
-                  alt='Las manos de Dios Baños Ecuador'
-                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-las-manos-de-dios-banos-ecuador_pgbows.jpg'
+                  alt='Pailon del Diablo Baños Ecuador'
+                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634860410/mayotravel/card-pailon-diablo_ivry3z.jpg'
                 />
                 <div className='card-content'>
                   <div className='card-content-subtitle'>
-                    <PushpinOutlined /> Actividades
+                    <SendOutlined /> Excursión
                   </div>
-                  <div className='card-content-title'>Las Manos de Dios</div>
+                  <div className='card-content-title'>Pailon del Diablo</div>
                   <Popover className='card-content-popover' placement='topLeft' content={content}>
                     <span className='reserva-flexible'>
                       <InfoCircleOutlined /> Reserva Flexible
@@ -79,14 +79,14 @@ export const Cards = () => {
               <div className='card'>
                 <img
                   className='photo'
-                  alt='Canyoning Baños Ecuador'
-                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-canyoning-banos-ecuador_bnmtfl.jpg'
+                  alt='Quilotoa Ecuador'
+                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634860845/mayotravel/card-quilotoa-ecuador_klvajh.jpg'
                 />
                 <div className='card-content'>
                   <div className='card-content-subtitle'>
-                    <PushpinOutlined /> Actividades
+                    <SendOutlined /> Excursión
                   </div>
-                  <div className='card-content-title'>Canyoning</div>
+                  <div className='card-content-title'>Laguna de Quilotoa </div>
                   <Popover className='card-content-popover' placement='topLeft' content={content}>
                     <span className='reserva-flexible'>
                       <InfoCircleOutlined /> Reserva Flexible
@@ -97,7 +97,7 @@ export const Cards = () => {
                   Precio por adulto desde:
                   <div className='card-footer-inside'>
                     <div className='card-footer-usd'>Usd</div>
-                    <div className='card-footer-number'>30</div>
+                    <div className='card-footer-number'>50</div>
                   </div>
                 </div>
               </div>
@@ -108,14 +108,14 @@ export const Cards = () => {
               <div className='card'>
                 <img
                   className='photo'
-                  alt='La casa del arbol Baños Ecuador'
-                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634665069/mayotravel/card-casa-del-arbol-banos-ecuador_bdb7kv.jpg'
+                  alt='Tours a las islas galapagos en ecuador'
+                  src='https://res.cloudinary.com/dlypj8ldu/image/upload/v1634860145/mayotravel/card-galapagos-ecuador2_aawidp.jpg'
                 />
                 <div className='card-content'>
                   <div className='card-content-subtitle'>
-                    <PushpinOutlined /> Actividades
+                    <SendOutlined /> Excursión
                   </div>
-                  <div className='card-content-title'>La Casa del Arbol</div>
+                  <div className='card-content-title'>Tours a Galápagos</div>
                   <Popover className='card-content-popover' placement='topLeft' content={content}>
                     <span className='reserva-flexible'>
                       <InfoCircleOutlined /> Reserva Flexible
@@ -126,7 +126,7 @@ export const Cards = () => {
                   Precio por adulto desde:
                   <div className='card-footer-inside'>
                     <div className='card-footer-usd'>Usd</div>
-                    <div className='card-footer-number'>8</div>
+                    <div className='card-footer-number'>320</div>
                   </div>
                 </div>
               </div>

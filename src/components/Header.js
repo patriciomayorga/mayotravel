@@ -7,6 +7,7 @@ import {
   PhoneOutlined,
   FlagOutlined,
   AlertOutlined,
+  MenuOutlined,
 } from '@ant-design/icons';
 import Container from './Container';
 
@@ -15,10 +16,15 @@ const Header = () => {
     <nav>
       <Container>
         <div className='icon-letras'>
-          <div className='icon-logo'>
-            <AlertOutlined />
+          <div className='logo'>
+            <div className='icon-logo'>
+              <AlertOutlined />
+            </div>
+            <label className='letras-logo'>mayotravel</label>
           </div>
-          <label className='letras-logo'>mayotravel</label>
+          <div className='menu-outlined'>
+            <MenuOutlined />
+          </div>
         </div>
         <ul>
           <li>
