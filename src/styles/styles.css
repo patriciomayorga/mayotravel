@@ -38,13 +38,13 @@ nav .container {
   display: flex;
 }
 .icon-logo {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   font-weight: bold;
   padding-right: 10px;
 }
 label.letras-logo {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   font-weight: bold;
   line-height: 1;
