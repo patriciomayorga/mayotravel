@@ -6,6 +6,7 @@ import Video from '../components/Video';
 import { Footer } from '../components/Footer';
 import { Cards2 } from '../components/Cards2';
 
+
 import Mail from '../components/Mail';
 
 export default function HomePage() {
