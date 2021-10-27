@@ -398,6 +398,11 @@ nav .container ul li a {
 .footer-colums .ant-row {
   display: block;
 }
+@media (min-width: 750px) {
+  .footer-colums .ant-row {
+    display: flex;
+  }
+}
 
 .footer-nav-in a {
   border: 1px solid transparent;

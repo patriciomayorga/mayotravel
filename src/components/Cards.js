@@ -16,7 +16,7 @@ export const Cards = () => {
       </div>
       <div className='container-cards'>
         <Row gutter={15}>
-          <Col xs={24} span={6}>
+          <Col xs={24} md={6}>
             <Card hoverable>
               <div className='card'>
                 <img
@@ -45,7 +45,7 @@ export const Cards = () => {
               </div>
             </Card>
           </Col>
-          <Col xs={24} span={6}>
+          <Col xs={24} md={6}>
             <Card hoverable>
               <div className='card'>
                 <img
@@ -74,7 +74,7 @@ export const Cards = () => {
               </div>
             </Card>
           </Col>
-          <Col xs={24} span={6}>
+          <Col xs={24} md={6}>
             <Card hoverable>
               <div className='card'>
                 <img
@@ -103,7 +103,7 @@ export const Cards = () => {
               </div>
             </Card>
           </Col>
-          <Col xs={24} span={6}>
+          <Col xs={24} md={6}>
             <Card hoverable>
               <div className='card'>
                 <img

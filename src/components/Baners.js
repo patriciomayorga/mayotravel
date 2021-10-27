@@ -16,7 +16,7 @@ export const Baners = () => {
       </div>
       <div className='baners-box'>
         <Row gutter={15}>
-          <Col xs={24} span={12}>
+          <Col xs={24} md={12}>
             <Card hoverable>
               <div className='photo-content'>
                 <img
@@ -34,7 +34,7 @@ export const Baners = () => {
               </div>
             </Card>
           </Col>
-          <Col xs={24} span={6}>
+          <Col xs={24} md={6}>
             <Card hoverable>
               <div className='photo-content2'>
                 <img
@@ -52,7 +52,7 @@ export const Baners = () => {
               </div>
             </Card>
           </Col>
-          <Col xs={24} span={6}>
+          <Col xs={24} md={6}>
             <Card hoverable>
               <div className='photo-content2'>
                 <img

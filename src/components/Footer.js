@@ -14,7 +14,7 @@ export const Footer = () => {
       <Container>
         <div className='footer-colums'>
           <Row gutter={15}>
-            <Col xs={24} span={6}>
+            <Col xs={24} md={6}>
               <div className='footer-titles'>Mayotravel</div>
               <p>
                 Mayotravel es la principal Mayorista y Agencia de viajes en Ecuador, especializada
@@ -23,7 +23,7 @@ export const Footer = () => {
                 Incluido.
               </p>
             </Col>
-            <Col xs={24} span={6}>
+            <Col xs={24} md={6}>
               <div className='footer-titles'>Actividades</div>
               <div className='footer-nav-in'>
                 <a href=''>Actividades y Tours en Baños</a>
@@ -32,7 +32,7 @@ export const Footer = () => {
                 <a href=''>Actividades y Tours en la Amazonia</a>
               </div>
             </Col>
-            <Col xs={24} span={6}>
+            <Col xs={24} md={6}>
               <div className='footer-titles'>Paquetes</div>
               <div className='footer-nav-in'>
                 <a href=''>Paquetes en Baños</a>
@@ -41,7 +41,7 @@ export const Footer = () => {
                 <a href=''>Hoteles Decameron</a>
               </div>
             </Col>
-            <Col xs={24} span={6}>
+            <Col xs={24} md={6}>
               <div className='footer-titles'>Contactenos</div>
               <div className='contact-footer'>
                 <li>
