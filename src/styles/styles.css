@@ -81,7 +81,7 @@ nav .container ul li a {
 /* CSS DE VIDEO */
 .video-container {
   width: 100%;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 60px) !important;
   object-fit: contain;
   position: relative;
   overflow: hidden;
