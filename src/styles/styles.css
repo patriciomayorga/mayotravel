@@ -131,7 +131,7 @@ nav .container ul li a {
 .video-content {
   z-index: 2;
   position: absolute;
-  top: 80%;
+  bottom: -60px;
   transform: translateY(-50%);
   text-align: center;
   width: 100%;
