@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   HomeOutlined,
   EnvironmentOutlined,
@@ -12,6 +12,7 @@ import {
 import Container from './Container';
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <nav>
       <Container>
@@ -22,16 +23,70 @@ const Header = () => {
             </div>
             <label className='letras-logo'>mayotravel</label>
           </div>
-          <div className='menu-outlined'>
+          <div className='menu-outlined' onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <MenuOutlined />
           </div>
         </div>
+        {isMenuOpen && (
+          <div className='mobile-nabvar'>
+            <ul>
+              <li>
+                <a href=''>
+                  <div className='icon'>
+                    <HomeOutlined />
+                  </div>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href=''>
+                  <div className='icon'>
+                    <EnvironmentOutlined />
+                  </div>
+                  Baños
+                </a>
+              </li>
+              <li>
+                <a href=''>
+                  <div className='icon'>
+                    <TagsOutlined />
+                  </div>
+                  Ecuador
+                </a>
+              </li>
+              <li>
+                <a href=''>
+                  <div className='icon'>
+                    <FlagOutlined />
+                  </div>
+                  Galápagos
+                </a>
+              </li>
+              <li>
+                <a href='/about'>
+                  <div className='icon'>
+                    <UserAddOutlined />
+                  </div>
+                  Quienes Somos
+                </a>
+              </li>
+              <li>
+                <a href=''>
+                  <div className='icon'>
+                    <PhoneOutlined />
+                  </div>
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </div>
+        )}
         <ul>
           <li>
             <a href=''>
               <div className='icon'>
                 <HomeOutlined />
-              </div>{' '}
+              </div>
               Home
             </a>
           </li>
@@ -39,7 +94,7 @@ const Header = () => {
             <a href=''>
               <div className='icon'>
                 <EnvironmentOutlined />
-              </div>{' '}
+              </div>
               Baños
             </a>
           </li>
@@ -47,7 +102,7 @@ const Header = () => {
             <a href=''>
               <div className='icon'>
                 <TagsOutlined />
-              </div>{' '}
+              </div>
               Ecuador
             </a>
           </li>
@@ -55,7 +110,7 @@ const Header = () => {
             <a href=''>
               <div className='icon'>
                 <FlagOutlined />
-              </div>{' '}
+              </div>
               Galápagos
             </a>
           </li>
@@ -63,16 +118,15 @@ const Header = () => {
             <a href='/about'>
               <div className='icon'>
                 <UserAddOutlined />
-              </div>{' '}
+              </div>
               Quienes Somos
             </a>
           </li>
           <li>
             <a href=''>
-              {' '}
               <div className='icon'>
                 <PhoneOutlined />
-              </div>{' '}
+              </div>
               Contacto
             </a>
           </li>
