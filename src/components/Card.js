@@ -12,7 +12,7 @@ export const Card = ({ imageUrl, category, title, price }) => {
   return (
     <AntCard hoverable>
       <div className='card'>
-        <Image width='304' height='206' className='photo' alt={title} src={imageUrl} />
+        <Image width='318' height='212' className='photo' alt={title} src={imageUrl} />
         <div className='card-content'>
           <div className='card-content-subtitle'>
             <PushpinOutlined /> {category}
