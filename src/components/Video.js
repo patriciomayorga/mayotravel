@@ -6,7 +6,7 @@ export default function Video() {
     <div className='video-container'>
       <video
         className='video'
-        src='https://res.cloudinary.com/dlypj8ldu/video/upload/v1634513077/mayotravel/galapagos-ecuador_heu0z9.mp4'
+        src='https://res.cloudinary.com/dlypj8ldu/video/upload/v1636740184/mayotravel/mayotodo_rsrgep.mp4'
         autoPlay
         loop
         muted
