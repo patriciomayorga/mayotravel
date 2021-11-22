@@ -70,6 +70,9 @@ nav .container ul li a {
   color: white;
   padding-right: 5px;
 }
+.active-menu {
+  background: #e12b19;
+}
 
 .mobile-nabvar {
   position: absolute;
@@ -111,6 +114,7 @@ nav .container ul li a {
   position: relative;
   overflow: hidden;
 }
+
 .video-container::after {
   content: ' ';
   position: absolute;
@@ -479,20 +483,23 @@ nav .container ul li a {
 .logo-mail {
   font-size: 76px;
   color: rgb(17, 0, 80);
-  height: 116%;
+  margin-bottom: -25px;
 }
 .input-mail {
   padding: 12px;
 }
 .input-tittle {
   line-height: 1.2;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   color: #444444;
-  height: 45%;
+  padding-bottom: 10px;
+}
+.ant-input {
+  font-size: 15px;
 }
 .input-info {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10px;
 }
 .btn-send {
@@ -523,6 +530,144 @@ nav .container ul li a {
 }
 .ant-input:focus .ant-input-focused {
   border-color: rgb(17, 0, 80);
+}
+.photo-program {
+  width: 100%;
+  height: calc(100vh - 60px);
+  object-fit: contain;
+  position: relative;
+  overflow: hidden;
+}
+.photo-program::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(22, 10, 10, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.description-content {
+  min-width: 320px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.text-description {
+  padding: 30px;
+}
+.description-title {
+  padding: 50px;
+  border-right: #f7582c 15px solid;
+  border-bottom: #f7582c 15px solid;
+}
+.text-description > h2 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.09;
+  letter-spacing: -1px;
+  color: #444;
+}
+.text-description > p {
+  font-size: 17px;
+}
+.description-title > h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.09;
+  letter-spacing: -1px;
+  color: #444;
+  padding-top: 40px;
+}
+.ant-col-12 {
+  display: block;
+  max-width: 100%;
+}
+.ant-row {
+  display: block;
+}
+.ciudad-origen {
+  display: flex;
+  background: #fff;
+}
+.ciudad-origen-icon {
+  display: flex;
+  align-items: end;
+  padding: 5px;
+  font-size: 20px;
+  color: #888;
+}
+.ciudad-origen-title {
+  padding: 5px 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #888;
+}
+.ant-select-selector {
+  padding: 0px !important;
+}
+
+/* CSS DE traslados */
+.trasladoscontent {
+  width: 100%;
+  background-color: #eeeeee;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.buscador {
+  width: 100%;
+  background-color: #270570;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.buscador > h1 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.datepicker {
+  display: flex;
+  padding: 20px;
+  display: block;
+}
+
+.sbox {
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.sbox-content {
+  width: 100%;
+  margin-right: 10px;
+}
+.sbox-icon {
+  display: flex;
+  align-items: end;
+  padding: 5px;
+  font-size: 25px;
+  color: #444444;
+}
+.sbox-title {
+  padding: 5px 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #888;
+}
+.ant-select-selector {
+  padding: 0px !important;
+}
+.ant-select-selection-placeholder {
+  color: #888;
+}
+.ant-select ant-select-borderless ant-select-single ant-select-show-arrow ant-select-show-search {
+  width: 100%;
 }
 
 /* RESPONSIVE DESIGN PARA PC*/
@@ -575,9 +720,6 @@ nav .container ul li a {
     padding: 0 20px;
     align-items: center;
     white-space: nowrap;
-  }
-  nav .container ul li:last-child a {
-    padding-right: 0px;
   }
 
   .icon {
@@ -635,7 +777,7 @@ nav .container ul li a {
     color: white;
     font-size: 30px;
     padding-bottom: 0px;
-    margin-top: -12px;
+    margin-top: -5px;
   }
   .flecha-down {
     color: white;
@@ -672,6 +814,7 @@ nav .container ul li a {
   }
   .photo {
     width: 100%;
+    height: 101%;
   }
   .card-content {
     padding: 24px;
@@ -1001,11 +1144,14 @@ nav .container ul li a {
     border-radius: 5px;
     width: 100%;
   }
+  .ant-input {
+    width: 300px;
+  }
   .ant-btn-primary:hover,
   .ant-btn-primary:focus {
     color: #fff;
-    border-color: rgb(17, 0, 80);
-    background: rgb(17, 0, 80);
+    border-color: #e12b19;
+    background: #e12b19;
   }
   .ant-input:hover {
     border-color: rgb(17, 0, 80);
@@ -1014,5 +1160,113 @@ nav .container ul li a {
   .ant-input:focus,
   .ant-input-focused {
     border-color: rgb(17, 0, 80);
+  }
+  /* CSS DE foto programa */
+  .photo-program {
+    width: 100%;
+    height: calc(100vh - 60px);
+    object-fit: contain;
+    position: relative;
+    overflow: hidden;
+  }
+  .photo-program::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(22, 10, 10, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .description-content {
+    min-width: 320px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .text-description {
+    padding: 30px;
+  }
+  .description-title {
+    padding: 50px;
+    border-right: #f7582c 15px solid;
+    border-bottom: #f7582c 15px solid;
+  }
+  .text-description > h2 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.09;
+    letter-spacing: -1px;
+    color: #444;
+  }
+  .description-title > h2 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.09;
+    letter-spacing: -1px;
+    color: #444;
+    padding-top: 40px;
+  }
+  .ant-col-12 {
+    max-width: 50%;
+  }
+  .ant-row {
+    display: flex;
+  }
+
+  /* CSS DE traslados */
+  .trasladoscontent {
+    width: 100%;
+    background-color: #eeeeee;
+    font-size: 14px;
+    padding: 50px;
+  }
+  .buscador {
+    width: auto;
+    background-color: #270570;
+    border-radius: 5px;
+    padding-top: 20px;
+  }
+  .buscador > h1 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+    padding: 20px;
+  }
+  .datepicker {
+    display: flex;
+    padding: 20px;
+  }
+  .ant-input:placeholder-shown {
+    width: 150px;
+  }
+  .sbox {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .sbox-icon {
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    font-size: 20px;
+    color: #444444;
+  }
+  .sbox-title {
+    padding: 5px 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .ant-select-selector {
+    padding: 0px !important;
+  }
+  .ant-select-selection-placeholder {
+    color: #888;
   }
 }
