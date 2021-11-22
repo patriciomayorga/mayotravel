@@ -566,7 +566,7 @@ nav .container ul li a {
   border-bottom: #f7582c 15px solid;
 }
 .text-description > h2 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1.09;
   letter-spacing: -1px;
@@ -576,12 +576,11 @@ nav .container ul li a {
   font-size: 17px;
 }
 .description-title > h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   line-height: 1.09;
   letter-spacing: -1px;
   color: #444;
-  padding-top: 40px;
 }
 .ant-col-12 {
   display: block;
@@ -643,6 +642,7 @@ nav .container ul li a {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
 .sbox-content {
   width: 100%;
   margin-right: 10px;
@@ -655,19 +655,25 @@ nav .container ul li a {
   color: #444444;
 }
 .sbox-title {
-  padding: 5px 0;
-  font-size: 15px;
+  font-size: 10px;
+  margin-top: 5px;
   text-transform: uppercase;
   color: #888;
+}
+.ant-select-selection-placeholder {
+  font-size: 12px;
+  font-style: italic;
+  color: #444444;
+}
+.ant-select-arrow {
+  color: #444444;
+  font-size: 15px;
 }
 .ant-select-selector {
   padding: 0px !important;
 }
 .ant-select-selection-placeholder {
   color: #888;
-}
-.ant-select ant-select-borderless ant-select-single ant-select-show-arrow ant-select-show-search {
-  width: 100%;
 }
 
 /* RESPONSIVE DESIGN PARA PC*/
