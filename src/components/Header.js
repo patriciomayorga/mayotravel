@@ -5,7 +5,6 @@ import {
   EnvironmentOutlined,
   TagsOutlined,
   FolderOutlined,
-  PhoneOutlined,
   FlagOutlined,
   AlertOutlined,
   MenuOutlined,
