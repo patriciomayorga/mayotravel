@@ -193,11 +193,7 @@ export const Traslados = () => {
                 </Select>
               </div>
             </div>
-            <Button
-              type='primary'
-              style={{ width: 120, height: 45, top: 14, borderRadius: 25, marginBottom: 10 }}
-              icon={<SearchOutlined />}
-            >
+            <Button type='primary' className='button-buscar' icon={<SearchOutlined />}>
               Buscar
             </Button>
           </div>

@@ -655,7 +655,7 @@ nav .container ul li a {
   color: #444444;
 }
 .sbox-title {
-  font-size: 12px;
+  font-size: 10px;
   padding: 5px;
   text-transform: uppercase;
   color: #888;
@@ -674,6 +674,15 @@ nav .container ul li a {
 }
 .ant-select-selection-placeholder {
   color: #888;
+}
+.button-buscar {
+  width: 100%;
+  height: 45px;
+  top: 14px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: #fa503f;
 }
 
 /* RESPONSIVE DESIGN PARA PC*/
